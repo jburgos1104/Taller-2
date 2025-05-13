@@ -1,0 +1,16 @@
+{
+  "name": "pokeneas",
+  "version": "1.0.0",
+  "description": "Pokedex paisa de Pokeneas hecha en Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "José Burgos y Jerónimo Velásquez",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "keywords": []
+}

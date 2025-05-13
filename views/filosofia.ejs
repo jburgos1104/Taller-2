@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title><%= pokenea.nombre %> - Pokenea</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+      padding: 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    h1 {
+      margin-top: 10px;
+      color: #333;
+    }
+    p {
+      font-style: italic;
+      color: #555;
+    }
+    .id {
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="<%= pokenea.imagen %>" alt="<%= pokenea.nombre %>">
+    <h1><%= pokenea.nombre %></h1>
+    <p>"<%= pokenea.frase %>"</p>
+    <div class="id">Contenedor: <%= contenedor %></div>
+  </div>
+</body>
+</html>
